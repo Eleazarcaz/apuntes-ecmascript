@@ -5,3 +5,9 @@ if (numeros.includes(7, 8)) {
 } else {
   console.log('No se encuentra');
 }
+// -------------------------------------
+
+const a = 4;
+const b = 3;
+
+console.log(a ** b);
