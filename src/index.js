@@ -40,3 +40,4 @@ Necesitamos muchas frases
 `;
 
 console.log(lorem2);
+// ----------------------------------------------------
