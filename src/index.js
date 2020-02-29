@@ -78,3 +78,14 @@ console.log(globalVar);
 // las constantes no se pueden volver asignar valores
 const a = 'b';
 const a = 'a';
+// --------------------------------------------------
+
+// parametros en objetos
+let name = 'Eleazar';
+let country = 'MX';
+// es5
+let obj = { name: 'Eleazar', country: 'mx' };
+
+//es6
+let obj2 = { name, country };
+console.log(obj2);
