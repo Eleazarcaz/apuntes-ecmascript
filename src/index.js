@@ -168,3 +168,19 @@ console.log(calc.sum(8, 9));
 
 import { saludar } from './module';
 saludar();
+// -----------------------------------------------
+
+function* helloWorld() {
+  if (true) {
+    yield 'hello, ';
+  }
+
+  if (true) {
+    yield 'world!';
+  }
+}
+
+const helloGenerator = helloWorld();
+console.log(helloGenerator.next().value);
+console.log(helloGenerator.next().value);
+console.log(helloGenerator.next().value);
