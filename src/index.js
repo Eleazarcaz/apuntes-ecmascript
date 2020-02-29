@@ -41,3 +41,23 @@ Necesitamos muchas frases
 
 console.log(lorem2);
 // ----------------------------------------------------
+
+let carro = {
+  marca: 'Toyota',
+  modelo: 'Corola',
+  year: 2005,
+};
+
+console.log(carro.marca, carro.modelo, carro.year);
+
+// es6
+let { marca, modelo, year } = carro;
+console.log(marca, modelo, year);
+
+let team1 = ['pepe', 'raul', 'eleazar'];
+let team2 = ['veronica', 'karla', 'yesica'];
+
+let education = ['David', ...team1, ...team2];
+
+console.log(education);
+// -----------------------------------------------------
