@@ -106,4 +106,44 @@ console.log(mostrarNombreProductos);
 const producto = ({ name }) => name;
 // let mostrarNombreProductosArrow = productos.map((producto) => producto.name);
 let mostrarNombreProductosArrow = productos.map(producto);
+
 console.log(mostrarNombreProductosArrow);
+// -------------------------------------------------
+
+// promesas
+const helloPromise = () => {
+  return new Promise((resolve, reject) => {
+    if (false) {
+      resolve('Hey!');
+    } else {
+      reject('Uppsss!');
+    }
+  });
+};
+
+helloPromise()
+  .then((resolve) => {
+    console.log(resolve);
+  })
+  .then(() => {
+    console.log('Puedo hacer otra cosa');
+  })
+  .catch((error) => {
+    console.error(error);
+  });
+
+const promesa = new Promise((resolve, reject) => {
+  if (true) {
+    resolve('Hola');
+  } else {
+    reject('algo mal');
+  }
+});
+
+promesa
+  .then((dato) => {
+    console.log(dato);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
