@@ -61,3 +61,20 @@ let education = ['David', ...team1, ...team2];
 
 console.log(education);
 // -----------------------------------------------------
+
+{
+  var globalVar = 'Global var';
+}
+
+{
+  //  let solo puede ser accedido por el scope declarado
+  // ejemplo este bloque de codigo
+  let globalLet = 'Global Let';
+  console.log(globalLet);
+}
+
+console.log(globalVar);
+
+// las constantes no se pueden volver asignar valores
+const a = 'b';
+const a = 'a';
