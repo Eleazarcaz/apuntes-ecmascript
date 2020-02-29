@@ -147,3 +147,20 @@ promesa
   .catch((err) => {
     console.log(err);
   });
+// ------------------------------------------------
+
+class calculadora {
+  constructor() {
+    this.a = 0;
+    this.b = 0;
+  }
+
+  sum(valueA, valueB) {
+    this.a = valueA;
+    this.b = valueB;
+    return this.a + this.b;
+  }
+}
+
+const calc = new calculadora();
+console.log(calc.sum(8, 9));
