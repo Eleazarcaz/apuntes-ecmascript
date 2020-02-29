@@ -164,3 +164,7 @@ class calculadora {
 
 const calc = new calculadora();
 console.log(calc.sum(8, 9));
+// ----------------------------------------------
+
+import { saludar } from './module';
+saludar();
