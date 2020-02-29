@@ -27,3 +27,16 @@ console.log(epicPhrase);
 
 let epicPhrase2 = `${hello} ${world}!`;
 console.log(epicPhrase2);
+
+// --------------------------------------------------
+
+let lorem = 'Frase epica 1 \n' + 'La otra frase epica';
+console.log(lorem);
+
+// es6
+
+let lorem2 = `Frases epicas para aprender 
+Necesitamos muchas frases
+`;
+
+console.log(lorem2);
