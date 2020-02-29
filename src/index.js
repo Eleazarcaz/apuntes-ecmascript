@@ -89,3 +89,21 @@ let obj = { name: 'Eleazar', country: 'mx' };
 //es6
 let obj2 = { name, country };
 console.log(obj2);
+// ---------------------------------------------------
+
+let productos = [
+  { name: 'sabritas', precio: 15 },
+  { name: 'coca', precio: 16 },
+];
+
+let mostrarNombreProductos = productos.map(function(producto) {
+  return producto.name;
+});
+
+console.log(mostrarNombreProductos);
+
+// es6 arrow functions
+const producto = ({ name }) => name;
+// let mostrarNombreProductosArrow = productos.map((producto) => producto.name);
+let mostrarNombreProductosArrow = productos.map(producto);
+console.log(mostrarNombreProductosArrow);
