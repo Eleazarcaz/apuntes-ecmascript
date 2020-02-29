@@ -14,3 +14,16 @@ function newFunction2(name = 'Eleazar', years_old = 22, country = 'MX') {
 }
 
 newFunction2('Pepe', 18);
+
+// -------------------------------------------------
+
+let hello = 'Hello';
+let world = 'World';
+
+let epicPhrase = hello + ' ' + world;
+console.log(epicPhrase);
+
+// es6
+
+let epicPhrase2 = `${hello} ${world}!`;
+console.log(epicPhrase2);
